@@ -126,3 +126,5 @@ function agregar(producto, tamaño) {
     total += tamaño.precio 
     alert( producto.nombre + " " + tamaño.nombre + " El total es $" + total) 
 }
+
+
