@@ -18,7 +18,7 @@ class Producto {
   let chipsChicas = new Producto("./imagenes/lays_clasicas.png", "papas chips chicas", 100);
   let salchipapa = new Producto("./imagenes/Salchipapa.jpg", "Salchipapa", 1000);
   let tortilla = new Producto("./imagenes/tortilla-de-papa.jpg", "Tortilla de papas", 1000);
-  let 
+  let rabas = new Producto("./imagenes\Rabas.jpeg", "Rabas", 800);
   
   // Crear un array con todos los productos
   let productos = [papasGrandes, papasMedianas, papasChicas, chipsGrandes, chipsMedianas, chipsChicas, salchipapa, tortilla];
