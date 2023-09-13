@@ -4,44 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <ul>
-            <img src="" alt="logo">
-            <li>inicio</li>
-            <li>contacto</li>
-        </ul>
+        <img class="logo-papafrita" src="./imagenes/logo-papafrita.png" alt="logo">
+
+        <div class="botonYcarrito">
+            <ul>
+                <li>inicio</li>
+                <li>contacto</li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img class="carrito" src="./imagenes/carrito.svg" alt="carrito">
+            </button>
+        </div>
+
     </header>
 
     <main>
-        <h1>Alta Papa Frita</h1>
-        <img src="https://www.pngmart.com/files/16/Potato-Lays-Chips-PNG-File.png" alt="papafrita">
-        <div>
+        <h1>La Papafriteria de <br> Don Papeño</h1>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Lista carrito</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">finalizar compra</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+
+        <div class="contenedor_producto">
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/Papafritas-grandes.jpg" alt="PapaFritaGrande">
+                <h3>Papas fritas <br> paquete grande</h3>
+                <h3>$600</h3>
+            </div>
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/Papafritas-medianas.jpg" alt="PapaFritaMediana">
+                <h3>Papas fritas <br> paquete mediano</h3>
+                <h3>$400</h3>
+            </div>
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/Papafritas-chicas.jpg" alt="PapaFritaChica">
+                <h3>Papas fritas <br> paquete chico</h3>
+                <h3>$200</h3>
+            </div>
+            
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/lays_clasicas.png" alt="chipsGrandes">
+                <h3>papas chips grandes</h3>
+                <h3>$200</h3>
+            </div>
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/lays_clasicas.png" alt="chipsMedianas">
+                <h3>papas chips Medianas</h3>
+                <h3>$150</h3>
+            </div>
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/lays_clasicas.png" alt="ChipsChicas">
+                <h3>papas chips chicas</h3>
+                <h3>$100</h3>
+            </div>
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/Salchipapa.jpg" alt="Salchipapa">
+                <h3>Salchipapa</h3>
+                <h3>$1000</h3>
+            </div>
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/tortilla-de-papa.jpg" alt="TortillaDePapas">
+                <h3>Tortilla de papas</h3>
+                <h3>$1000</h3>
+            </div>
+
+            <div class="producto">
+                <img class="imagen_producto" src="./imagenes/Rabas.jpeg" alt="Rabas">
+                <h3>Rabas</h3>
+                <h3>$800</h3>
+            </div>
 
         </div>
-        <div>
 
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
     </main>
 
     <footer>
-        <p>papafrita, todos los derechos reservados</p>
+        <p>Papafriteria de Don Papeño, copyright todos los derechos reservados.</p>
     </footer>
-   <!--  -->
-     <script src="./js/app.js"></script>
+      
+    <!--<script src="./testeo/test.js"></script>-->
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
