@@ -21,7 +21,7 @@ class Producto {
   let rabas = new Producto("./imagenes\Rabas.jpeg", "Rabas", 800);
   
   // Crear un array con todos los productos
-  let productos = [papasGrandes, papasMedianas, papasChicas, chipsGrandes, chipsMedianas, chipsChicas, salchipapa, tortilla];
+  let productos = [papasGrandes, papasMedianas, papasChicas, chipsGrandes, chipsMedianas, chipsChicas, salchipapa, tortilla, rabas];
   
   // Crear una función que reciba un objeto producto y cree un elemento div con sus datos
   function crearDivProducto(producto) {
